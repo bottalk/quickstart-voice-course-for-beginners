@@ -1,0 +1,16 @@
+---
+slots:
+
+  planet:
+    - Mercury
+    - Venus
+    - Mars
+    - Jupiter
+    - Saturn
+    - Uranus
+    - Neptune
+    - Pluto
+    - Earth
+
+
+  name: '@bottalk.name'

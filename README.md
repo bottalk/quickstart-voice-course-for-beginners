@@ -22,6 +22,17 @@ You'll learn how to develop a voice app called "Greetings from Earth" by buildin
 
 > **Assistant**: Dear *Elon*, your very personal Greetings from Earth will reach *Mars* in about 22 light-minutes.
 
-Do you want to hear what this Alexa Skill / Google Action sounds like? Click the **Run** button in front of the *Happy Path*:
+---
 
-<iframe scrolling="no" src="https://bottalk.de/preview_imwcy" style="height: 306px;" width="100%" height="500px" frameborder="0"></iframe>
+## Course Contents
+
+This voice application development course for beginners consists of 8 chapters. Each chapter contains easy-to-follow step-by-step instructions that help you understand the basics of voice development with BotTalk
+
+* [Chapter 1: Understand How Voice Assistants Work](https://docs.bottalk.de/quickstart/understand-how-voice-assistants-work)
+* [Chapter 2: Create New Voice Scenario](https://docs.bottalk.de/quickstart/create-a-new-scenario)
+* [Chapter 3: First Dialog Step](https://docs.bottalk.de/quickstart/create-first-dialog-step)
+* [Chapter 4: Testing Voice Applications](https://docs.bottalk.de/quickstart/testing-voice-applications)
+* [Chapter 5: Capture what users say](https://docs.bottalk.de/quickstart/capture-what-users-say-slots-intents)
+* [Chapter 6: Deploy an Alexa Skill and Action on Google](https://docs.bottalk.de/quickstart/deploy-alexa-skills-and-google-actions)
+* Chapter 7 (optional): Display visual interface on Assistant App and Echo Show
+* Chapter 8 (optional): Make API requests with Alexa Skills / Google Actions

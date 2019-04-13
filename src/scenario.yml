@@ -1,0 +1,52 @@
+---
+include:
+  - intents.yml
+  - slots.yml
+  - tests.yml
+scenario:
+  name: 'Greetings from Earth'
+  locale: 'en-US'
+  category: EDUCATION_AND_REFERENCE
+  invocation: 'Greetings form Earth'
+  examplePhrases:
+    - 'Alexa, open Greetings from Earth'
+  steps:
+
+    - name: Initial step
+      actions:
+        - sendText: >
+            Welcome to Greetings from Earth.
+            What is your name?
+        - getInput:
+      next:
+        Users_Introduction: Ask for planet
+        AMAZON.CancelIntent: Exit
+        AMAZON.StopIntent: Exit
+        AMAZON.HelpIntent: Help
+
+    - name: Ask for planet
+      actions:
+        - sendText: "And what planet are you from?"
+        - getInput:
+      next:
+        Users_Planet: Send the Greeting
+
+    - name: Send the Greeting
+      actions:
+        - sendText: >
+            Dear {{name}}, your very personal Greetings from Earth
+            will reach {{planet}} in about 22 light-minutes.
+
+
+    - name: Exit
+      entrypoint: true
+      actions:
+        - sendText: 'Here is a bye-bye text'
+
+    - name: Help
+      entrypoint: true
+      actions:
+        - sendText: 'Here is the help text'
+        - getInput:
+      next:
+        ok_great: Initial step

@@ -1,0 +1,16 @@
+---
+intents:
+  ok_great:
+    - 'OK'
+    - 'Great'
+  Users_Introduction:
+    - 'my name is {name}'
+    - 'you can call me {name}'
+    - '{name} is my name'
+    - "I'm {name}"
+    - '{name}'
+  Users_Planet:
+    - "I'm from {planet}"
+    - "I live on {planet}"
+    - "{planet} is my home world"
+    - "{planet}"

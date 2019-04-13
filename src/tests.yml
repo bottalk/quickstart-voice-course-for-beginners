@@ -1,0 +1,20 @@
+---
+tests:
+
+  Happy Path:
+
+    - say: start
+      wait: >
+        Welcome to Greetings from Earth. What is your name?
+
+    - say: Users_Introduction
+      slots:
+        name: Elon
+      wait: "And what planet are you from?"
+
+
+    - say: Users_Planet
+      slots:
+        planet: Mars
+      wait: >
+        Dear Elon, your very personal Greetings from Earth will reach Mars in about 22 light-minutes.
